@@ -29,7 +29,14 @@ header {
  
 
 }
-
+header nav a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+}
 header p {
     font-size: 2rem;
     margin-right: auto;
@@ -291,4 +298,10 @@ header nav:hover{
     height:60px ;
     border: 2px solid white;
     border-radius: 5px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-self:center;
+
 }
